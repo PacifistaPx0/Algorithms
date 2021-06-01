@@ -29,7 +29,7 @@ def mergesort(array):
                 
             k = k+1
 
-        #One of the while loops will and the remaining sorted elements in left or right sublist will be appended to the original array
+        #One of the while loops will execute and the remaining sorted elements in left or right sublist will be appended to the original array
         while i < len(left):
             array[k] = left[i]
             i = i+1
