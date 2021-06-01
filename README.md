@@ -1,2 +1,5 @@
 # Algorithms
-Learnt Algorithms
+
+
+
+I'll be updating algorithms I've learnt 
