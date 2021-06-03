@@ -1,4 +1,5 @@
-from timer import Timer 
+from timer import Timer
+
 
 def linearsearch(array):
     for i in range(0, len(array)):

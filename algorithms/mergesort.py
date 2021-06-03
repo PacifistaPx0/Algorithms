@@ -1,4 +1,6 @@
+import random
 from timer import Timer
+
 
 def mergesort(array):
     if len(array) > 1:
@@ -39,8 +41,12 @@ def mergesort(array):
             j = j+1
             k = k+1
 
-array = input("input your list: ")
-array = list(array.split())
+array = [random.randrange(1000) for k in range(1000)]
+
+#for user input testing 
+
+#array = input("input your list: ")
+#array = list(array.split())
 
 t = Timer()
 t.start()

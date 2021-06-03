@@ -1,4 +1,7 @@
 from timer import Timer
+import timer
+import random
+
 
 def insertion_sort(array):
     #loop around the array, i starts from the second index in the array as we assume the first value is part of the sorted list
@@ -13,8 +16,9 @@ def insertion_sort(array):
 
         array[i] = currentValue
 
-array = input("input your list: ")
-array = list(array.split())
+array = [random.randrange(100) for k in range(100)]
+#array = input("input your list: ")
+#array = list(array.split())
 
 t = Timer()
 t.start()
