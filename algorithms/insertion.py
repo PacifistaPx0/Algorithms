@@ -15,6 +15,8 @@ def insertion_sort(array):
             i = i-1
 
         array[i] = currentValue
+        
+    return array
 
 array = [random.randrange(100) for k in range(100)]
 #array = input("input your list: ")
